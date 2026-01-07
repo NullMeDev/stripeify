@@ -1,7 +1,16 @@
 [package]
-name = "shopify_checker"
-version = "0.2.0"
+name = "stripeify"
+version = "1.0.0"
 edition = "2021"
+authors = ["NullMe <support@nullme.dev>"]
+description = "High-performance Stripe payment gateway validator for Shopify donation sites"
+repository = "https://github.com/NullMeDev/stripeify"
+homepage = "https://github.com/NullMeDev/stripeify"
+documentation = "https://github.com/NullMeDev/stripeify/tree/master/docs"
+readme = "README.md"
+license = "MIT"
+keywords = ["stripe", "payment", "validator", "shopify", "security"]
+categories = ["command-line-utilities", "web-programming"]
 
 [dependencies]
 # CLI framework
@@ -38,9 +47,9 @@ lazy_static = "1.4"
 tempfile = "3.8"
 
 [lib]
-name = "shopify_checker"
+name = "stripeify"
 path = "src/lib.rs"
 
 [[bin]]
-name = "shopify_checker"
+name = "stripeify"
 path = "src/main.rs"

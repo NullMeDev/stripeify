@@ -1,1 +1,74 @@
+# Rust
 /target
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets & Config
+config.json
+telegram_config.json
+.env
+*.key
+*.pem
+
+# Data Files
+*.txt
+!requirements.txt
+!README.txt
+*.json
+!Cargo.json
+!package.json
+!donation_gates.json
+!production_gates.json
+!valid_gates.json
+!*_template.json
+!*_example.json
+
+# Logs & Results
+*.log
+*_results.json
+*_output.log
+discovery_results.json
+gate_discovery_results.log
+proxy_test_results.log
+
+# Test Data
+test_*.txt
+test_*.json
+!test_*.sh
+working_cards.txt
+extracted.txt
+quickgatetestinfo.txt
+
+# Build artifacts
+*.pyc
+__pycache__/
+.venv/
+venv/
+*.egg-info/
+
+# Directories with sensitive data
+production_results/
+gate_chunks_*/
+gates_dir/
+ShopifyGatesAndChunks/
+
+# Proxy files
+proxies.txt
+Proxies.txt
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
