@@ -1,0 +1,8 @@
+# Example cards file
+# Format: number|month|year|cvv
+# One card per line
+# Lines starting with # are comments
+
+5196032132860996|12|25|406
+4532015112830366|11|26|789
+5425233430109903|10|27|123

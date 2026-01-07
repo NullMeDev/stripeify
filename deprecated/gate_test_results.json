@@ -1,0 +1,710 @@
+[
+  {
+    "gate": {
+      "url": "https://missionstonetile.com",
+      "accessible": true,
+      "has_shopify": true,
+      "has_shopify_payments": true,
+      "has_donation_form": true,
+      "donation_keywords_count": 5,
+      "shopify_domain": null,
+      "payment_gateway": "Shopify (Unknown Gateway)",
+      "title": "We\u2019ll be back soon!\n \u2013 Mission Stone & Tile",
+      "error": null
+    },
+    "total_tests": 37,
+    "successful_tests": 37,
+    "failed_tests": 0,
+    "avg_response_time": 0.3975021323642215,
+    "test_results": [
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "4137180308172590|12|25|613",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.619236946105957,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5534379158092561|12|25|342",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.7566874027252197,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5534372334966642|12|25|920",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.33245229721069336,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5395939124035602|12|25|192",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.34499216079711914,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5587170422484866|12|25|228",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3881807327270508,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5566254251674881|12|25|831",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.454209566116333,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5527790039392922|12|25|899",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.5718915462493896,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5533975345902603|12|25|664",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.4256856441497803,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "4943517659886175|12|25|966",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.37603116035461426,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5534370600468723|12|25|540",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.43528032302856445,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5395930506044379|12|25|527",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.31473708152770996,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5203650601017433|12|25|935",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.4016392230987549,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5229859083740129|12|25|475",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.30205821990966797,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "4391370026004891|12|25|581",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3795905113220215,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5305061600450004|12|25|426",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3869307041168213,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5587170476334223|12|25|371",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3660123348236084,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5423398905286577|12|25|864",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.31928205490112305,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5356740109045880|12|25|668",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3395686149597168,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "4633720000053801|12|25|615",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.32677769660949707,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5395930506126556|12|25|014",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3049008846282959,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5522283004118535|12|25|794",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3158235549926758,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "4972029844910112|12|25|939",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.41803956031799316,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "4665381009588783|12|25|463",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3374199867248535,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "4033020047408407|12|25|799",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.36841773986816406,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5534122835020831|12|25|412",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.7726266384124756,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5533974454726762|12|25|192",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.4418601989746094,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5178057906537118|12|25|106",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.363818883895874,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5320920026136185|12|25|510",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3112211227416992,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5317130052114263|12|25|980",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.4759867191314697,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5533974455541392|12|25|764",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.38298654556274414,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5533979890905078|12|25|376",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.29223108291625977,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "4524041851010028|12|25|608",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.5078794956207275,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5395939840590740|12|25|901",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.31475067138671875,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5193158070005899|12|25|785",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.30382776260375977,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5395930631414331|12|25|538",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3060314655303955,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "4221820000431490|12|25|500",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3148012161254883,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5522605008413217|12|25|650",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3337111473083496,
+        "payment_error": null
+      }
+    ],
+    "reliability_score": 100.0
+  },
+  {
+    "gate": {
+      "url": "https://nicuwarriorfoundation.org",
+      "accessible": true,
+      "has_shopify": true,
+      "has_shopify_payments": true,
+      "has_donation_form": true,
+      "donation_keywords_count": 9,
+      "shopify_domain": null,
+      "payment_gateway": "Shopify (Unknown Gateway)",
+      "title": "NICU Warrior Foundation\n\u2013 NICU WARRIOR FOUNDATION",
+      "error": null
+    },
+    "total_tests": 37,
+    "successful_tests": 37,
+    "failed_tests": 0,
+    "avg_response_time": 0.33868058307750804,
+    "test_results": [
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "4137180308172590|12|25|613",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.5527389049530029,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5534379158092561|12|25|342",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3075408935546875,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5534372334966642|12|25|920",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.47863149642944336,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5395939124035602|12|25|192",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3039975166320801,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5587170422484866|12|25|228",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.6031339168548584,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5566254251674881|12|25|831",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.2779378890991211,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5527790039392922|12|25|899",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.2987673282623291,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5533975345902603|12|25|664",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.32369112968444824,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "4943517659886175|12|25|966",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.31207847595214844,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5534370600468723|12|25|540",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.28674936294555664,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5395930506044379|12|25|527",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.29155516624450684,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5203650601017433|12|25|935",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3701770305633545,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5229859083740129|12|25|475",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3287692070007324,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "4391370026004891|12|25|581",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.398439884185791,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5305061600450004|12|25|426",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.29454898834228516,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5587170476334223|12|25|371",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.2910637855529785,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5423398905286577|12|25|864",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.30358433723449707,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5356740109045880|12|25|668",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.5303363800048828,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "4633720000053801|12|25|615",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.29874277114868164,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5395930506126556|12|25|014",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3731396198272705,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5522283004118535|12|25|794",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.2909970283508301,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "4972029844910112|12|25|939",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.2785677909851074,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "4665381009588783|12|25|463",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.29103636741638184,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "4033020047408407|12|25|799",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.31122922897338867,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5534122835020831|12|25|412",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.31792235374450684,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5533974454726762|12|25|192",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.2929978370666504,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5178057906537118|12|25|106",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.30019402503967285,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5320920026136185|12|25|510",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.29736757278442383,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5317130052114263|12|25|980",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3059196472167969,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5533974455541392|12|25|764",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.27316904067993164,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5533979890905078|12|25|376",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.28888940811157227,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "4524041851010028|12|25|608",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.2830028533935547,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5395939840590740|12|25|901",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.6014730930328369,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5193158070005899|12|25|785",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.29052042961120605,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5395930631414331|12|25|538",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.3008725643157959,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "4221820000431490|12|25|500",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.2841463088989258,
+        "payment_error": null
+      },
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5522605008413217|12|25|650",
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify site confirmed (payment gateway unknown)",
+        "response_time": 0.29725193977355957,
+        "payment_error": null
+      }
+    ],
+    "reliability_score": 100.0
+  }
+]

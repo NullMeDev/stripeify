@@ -1,0 +1,16 @@
+# Invalid format - missing password
+evo-pro.porterproxies.com:62345:PP_5J7SVIL0BJ
+
+# Invalid format - missing port
+evo-pro.porterproxies.com:PP_5J7SVIL0BJ:password
+
+# Valid format
+evo-pro.porterproxies.com:62345:PP_5J7SVIL0BJ-country-US:95cc2n4b
+
+# Invalid format - only host
+evo-pro.porterproxies.com
+
+# Empty line
+
+# Valid format
+evo-pro.porterproxies.com:62345:PP_TEST:testpass

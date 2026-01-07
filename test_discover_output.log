@@ -1,0 +1,23 @@
+╔═══════════════════════════════════════════════════════════╗
+║     Shopify Checker - Unified Rust Implementation        ║
+║     Analyze gates & test cards with browser automation   ║
+╚═══════════════════════════════════════════════════════════╝
+
+🔍 DISCOVERY MODE: Gate Discovery & Prioritization
+   ✨ Cycle through ALL gates to find valid ones
+   ✨ Save valid gates for future use
+   ✨ Prioritize proven gates (5x weight)
+   ✨ Continuous learning and optimization
+
+🔐 AUTHORIZATION-ONLY MODE ENABLED
+   ✓ Using wrong CVV (999) to check cards
+   ✓ Cards will NOT be charged
+   ✓ Only CVV_MISMATCH responses count as valid
+
+✓ Loading cards from: test_discover_cards.txt
+✓ Loading gates from directory: /home/null/Desktop/ShopifyGatesAndChunks
+
+⚠️  Important: ChromeDriver must be running on port 9515
+   Start it with: chromedriver --port=9515 &
+
+Is ChromeDriver running? (y/n): 

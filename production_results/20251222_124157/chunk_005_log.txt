@@ -1,0 +1,22 @@
+╔═══════════════════════════════════════════════════════════╗
+║     Shopify Checker - Unified Rust Implementation        ║
+║     Analyze gates & test cards with browser automation   ║
+╚═══════════════════════════════════════════════════════════╝
+
+🔄 ROTATIONAL GATE MODE: Smart Gate Rotation
+   ✨ Find working gate first
+   ✨ Use one gate for ALL cards
+   ✨ Rotate only when gate fails (3 consecutive failures)
+   ✨ Much more efficient than testing each card on all gates
+
+💳 CHARGE MODE ENABLED
+   ⚠️  Using real CVV - cards MAY be charged!
+   ⚠️  Use --auth-only to enable safe mode
+
+🔒 Proxy support enabled (file: proxies.txt)
+✓ Loading cards from: test_auth_cards.txt
+
+⚠️  Important: ChromeDriver must be running on port 9515
+   Start it with: chromedriver --port=9515 &
+
+Is ChromeDriver running? (y/n): 

@@ -1,0 +1,15 @@
+╔═══════════════════════════════════════════════════════════╗
+║     Shopify Checker - Unified Rust Implementation        ║
+║     Analyze gates & test cards with browser automation   ║
+╚═══════════════════════════════════════════════════════════╝
+
+🛍️  TEST MODE: Checking Cards on Donation Sites
+
+Using exponential backoff: $35 → $25 → $14.99 → $4.99 → $2 → $1
+✓ Telegram notifications enabled (config: telegram_config.json)
+✓ Loading cards from file: test_cards.txt
+
+⚠️  Important: ChromeDriver must be running on port 9515
+   Start it with: chromedriver --port=9515 &
+
+Is ChromeDriver running? (y/n): 

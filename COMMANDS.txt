@@ -1,0 +1,231 @@
+# Shopify Checker - All Commands
+
+## INITIAL SETUP (One-time)
+
+# Install Rust (if not installed)
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
+
+# Navigate to project
+cd /home/null/Desktop/Stripeify
+
+# Build Rust project
+cargo build --release
+
+## PHASE 1: FIND DONATION SITES (Python)
+
+# Navigate to project
+cd /home/null/Desktop/Stripeify
+
+# Run analyzer to find donation sites from 15,000 gates
+python3 gate_analyzer.py
+
+# When prompted, enter: all (or press Enter)
+# This creates: donation_gates.json
+
+## PHASE 2: CHECK CARDS (Rust)
+
+# Option 1: Run with cargo
+cd /home/null/Desktop/Stripeify
+cargo run --release
+
+# Option 2: Run binary directly
+cd /home/null/Desktop/Stripeify
+./target/release/shopify_checker
+
+# Interactive prompts:
+# 1. Enter cards (format: number|month|year|cvv)
+#    Example: 4532015112830366|12|2027|123
+#    Press Enter on empty line when done
+# 2. How many gates to test? (Enter number or 'all')
+# 3. Proceed? (y/n)
+
+## VIEW RESULTS
+
+# View all results
+cat checker_results.json | python3 -m json.tool
+
+# View with jq (if installed)
+cat checker_results.json | jq
+
+# Filter for $35 gates only
+cat checker_results.json | jq '.[] | select(.amount == 35)'
+
+# Filter for $25 gates only
+cat checker_results.json | jq '.[] | select(.amount == 25)'
+
+# Count gates by amount
+cat checker_results.json | jq 'group_by(.amount) | map({amount: .[0].amount, count: length})'
+
+# View donation gates database
+cat donation_gates.json | python3 -m json.tool | less
+
+## DEVELOPMENT COMMANDS
+
+# Check Rust code without building
+cargo check
+
+# Run linter
+cargo clippy
+
+# Format code
+cargo fmt
+
+# Build debug version (faster compile, slower runtime)
+cargo build
+
+# Build release version (slower compile, faster runtime)
+cargo build --release
+
+# Clean build artifacts
+cargo clean
+
+# Update dependencies
+cargo update
+
+## TESTING
+
+# Time Python version (if you still have it)
+time python3 shopify_checker.py
+
+# Time Rust version
+time ./target/release/shopify_checker
+
+# Check binary size
+ls -lh target/release/shopify_checker
+
+# Check if binary exists
+test -f target/release/shopify_checker && echo "Binary exists" || echo "Binary not found"
+
+## COMPLETE WORKFLOW (Copy-paste ready)
+
+# Step 1: Build Rust (one-time)
+cd /home/null/Desktop/Stripeify && cargo build --release
+
+# Step 2: Find donation sites
+cd /home/null/Desktop/Stripeify && python3 gate_analyzer.py
+
+# Step 3: Check cards
+cd /home/null/Desktop/Stripeify && ./target/release/shopify_checker
+
+# Step 4: View results
+cat /home/null/Desktop/Stripeify/checker_results.json | jq
+
+## QUICK START (After initial setup)
+
+# Just run the checker
+cd /home/null/Desktop/Stripeify && ./target/release/shopify_checker
+
+## TROUBLESHOOTING
+
+# If build fails, update Rust
+rustup update
+
+# If build fails, clean and rebuild
+cd /home/null/Desktop/Stripeify && cargo clean && cargo build --release
+
+# If donation_gates.json missing
+cd /home/null/Desktop/Stripeify && python3 gate_analyzer.py
+
+# Check Rust version
+rustc --version
+cargo --version
+
+# Check if Rust is installed
+which rustc
+which cargo
+
+## FILE LOCATIONS
+
+# Rust source code
+/home/null/Desktop/Stripeify/src/main.rs
+
+# Rust config
+/home/null/Desktop/Stripeify/Cargo.toml
+
+# Compiled binary
+/home/null/Desktop/Stripeify/target/release/shopify_checker
+
+# Input (donation sites database)
+/home/null/Desktop/Stripeify/donation_gates.json
+
+# Output (checker results)
+/home/null/Desktop/Stripeify/checker_results.json
+
+# Python analyzer
+/home/null/Desktop/Stripeify/gate_analyzer.py
+
+# Documentation
+/home/null/Desktop/Stripeify/RUST_README.md
+/home/null/Desktop/Stripeify/COMMANDS.txt
+
+## MADY ORIGINAL (For reference)
+
+# Navigate to Mady
+cd /home/null/Desktop/SKy/MadyOriginal
+
+# Run Mady checker
+python3 mady.py
+
+# Mady uses CC Foundation $1 gate
+# Shopify checker uses Shopify donation sites with exponential backoff
+
+## INSTALL JQ (Optional, for better JSON viewing)
+
+# Ubuntu/Debian
+sudo apt-get install jq
+
+# Check if installed
+which jq
+
+## ONE-LINER COMMANDS
+
+# Complete workflow in one command
+cd /home/null/Desktop/Stripeify && python3 gate_analyzer.py && ./target/release/shopify_checker
+
+# Build and run
+cd /home/null/Desktop/Stripeify && cargo build --release && ./target/release/shopify_checker
+
+# Quick run (if already built)
+cd /home/null/Desktop/Stripeify && ./target/release/shopify_checker
+
+## PERFORMANCE COMPARISON
+
+# Python version (if exists)
+cd /home/null/Desktop/Stripeify && time python3 shopify_checker.py
+
+# Rust version
+cd /home/null/Desktop/Stripeify && time ./target/release/shopify_checker
+
+## CLEANUP
+
+# Remove build artifacts (keeps source)
+cd /home/null/Desktop/Stripeify && cargo clean
+
+# Remove results
+cd /home/null/Desktop/Stripeify && rm -f checker_results.json
+
+# Remove donation database (will need to re-run analyzer)
+cd /home/null/Desktop/Stripeify && rm -f donation_gates.json
+
+## BACKUP
+
+# Backup results
+cp /home/null/Desktop/Stripeify/checker_results.json /home/null/Desktop/Stripeify/checker_results_backup_$(date +%Y%m%d_%H%M%S).json
+
+# Backup donation database
+cp /home/null/Desktop/Stripeify/donation_gates.json /home/null/Desktop/Stripeify/donation_gates_backup_$(date +%Y%m%d_%H%M%S).json
+
+## MOST COMMON COMMANDS
+
+# 1. Build (first time only)
+cd /home/null/Desktop/Stripeify && cargo build --release
+
+# 2. Find donation sites (when you have new gates)
+cd /home/null/Desktop/Stripeify && python3 gate_analyzer.py
+
+# 3. Check cards (every time you want to test)
+cd /home/null/Desktop/Stripeify && ./target/release/shopify_checker
+
+# 4. View results
+cat /home/null/Desktop/Stripeify/checker_results.json | jq

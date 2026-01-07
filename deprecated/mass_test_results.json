@@ -1,0 +1,114 @@
+[
+  {
+    "gate_url": "https://missionstonetile.com",
+    "payment_gateway": "Shopify (Unknown Gateway)",
+    "successful_amount": 35.0,
+    "total_time": 0.697929859161377,
+    "all_attempts": [
+      {
+        "gate_url": "https://missionstonetile.com",
+        "card": "5395930756285714|12|25|941",
+        "amount": 35.0,
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify confirmed ($35.00 test)",
+        "response_time": 0.6957416534423828,
+        "payment_gateway": "Shopify (Unknown Gateway)"
+      }
+    ],
+    "best_result": {
+      "gate_url": "https://missionstonetile.com",
+      "card": "5395930756285714|12|25|941",
+      "amount": 35.0,
+      "success": true,
+      "status": "SHOPIFY_DETECTED",
+      "message": "Shopify confirmed ($35.00 test)",
+      "response_time": 0.6957416534423828,
+      "payment_gateway": "Shopify (Unknown Gateway)"
+    }
+  },
+  {
+    "gate_url": "https://nicuwarriorfoundation.org",
+    "payment_gateway": "Shopify (Unknown Gateway)",
+    "successful_amount": 35.0,
+    "total_time": 0.33295154571533203,
+    "all_attempts": [
+      {
+        "gate_url": "https://nicuwarriorfoundation.org",
+        "card": "5196032132820404|12|25|289",
+        "amount": 35.0,
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify confirmed ($35.00 test)",
+        "response_time": 0.33033227920532227,
+        "payment_gateway": "Shopify (Unknown Gateway)"
+      }
+    ],
+    "best_result": {
+      "gate_url": "https://nicuwarriorfoundation.org",
+      "card": "5196032132820404|12|25|289",
+      "amount": 35.0,
+      "success": true,
+      "status": "SHOPIFY_DETECTED",
+      "message": "Shopify confirmed ($35.00 test)",
+      "response_time": 0.33033227920532227,
+      "payment_gateway": "Shopify (Unknown Gateway)"
+    }
+  },
+  {
+    "gate_url": "https://www.submissionaudio.com",
+    "payment_gateway": "Shopify Payments",
+    "successful_amount": 35.0,
+    "total_time": 0.0012583732604980469,
+    "all_attempts": [
+      {
+        "gate_url": "https://www.submissionaudio.com",
+        "card": "4147202471219723|12|25|438",
+        "amount": 35.0,
+        "success": true,
+        "status": "SHOPIFY_PAYMENTS_DETECTED",
+        "message": "Shopify Payments detected ($35.00 test)",
+        "response_time": 6.9141387939453125e-06,
+        "payment_gateway": "Shopify Payments"
+      }
+    ],
+    "best_result": {
+      "gate_url": "https://www.submissionaudio.com",
+      "card": "4147202471219723|12|25|438",
+      "amount": 35.0,
+      "success": true,
+      "status": "SHOPIFY_PAYMENTS_DETECTED",
+      "message": "Shopify Payments detected ($35.00 test)",
+      "response_time": 6.9141387939453125e-06,
+      "payment_gateway": "Shopify Payments"
+    }
+  },
+  {
+    "gate_url": "https://mermaidstraw.com",
+    "payment_gateway": "Shopify (Unknown Gateway)",
+    "successful_amount": 35.0,
+    "total_time": 0.5636444091796875,
+    "all_attempts": [
+      {
+        "gate_url": "https://mermaidstraw.com",
+        "card": "4141700006579152|12|25|873",
+        "amount": 35.0,
+        "success": true,
+        "status": "SHOPIFY_DETECTED",
+        "message": "Shopify confirmed ($35.00 test)",
+        "response_time": 0.5615613460540771,
+        "payment_gateway": "Shopify (Unknown Gateway)"
+      }
+    ],
+    "best_result": {
+      "gate_url": "https://mermaidstraw.com",
+      "card": "4141700006579152|12|25|873",
+      "amount": 35.0,
+      "success": true,
+      "status": "SHOPIFY_DETECTED",
+      "message": "Shopify confirmed ($35.00 test)",
+      "response_time": 0.5615613460540771,
+      "payment_gateway": "Shopify (Unknown Gateway)"
+    }
+  }
+]

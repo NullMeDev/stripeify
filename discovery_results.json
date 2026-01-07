@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "card": "513770...801",
+      "gate": "https://turningpointe.myshopify.com",
+      "status": "DECLINED",
+      "success": false,
+      "timestamp": "2026-01-02 18:56:34"
+    },
+    {
+      "card": "497874...530",
+      "gate": "https://camberkits.myshopify.com",
+      "status": "DECLINED",
+      "success": false,
+      "timestamp": "2026-01-02 18:56:54"
+    },
+    {
+      "card": "497040...304",
+      "gate": "https://lemstyle.myshopify.com",
+      "status": "DECLINED",
+      "success": false,
+      "timestamp": "2026-01-02 18:57:12"
+    },
+    {
+      "card": "497203...823",
+      "gate": "https://greentempleproducts.myshopify.com",
+      "status": "DECLINED",
+      "success": false,
+      "timestamp": "2026-01-02 18:57:31"
+    },
+    {
+      "card": "497874...008",
+      "gate": "https://dejey.myshopify.com",
+      "status": "DECLINED",
+      "success": false,
+      "timestamp": "2026-01-02 18:57:50"
+    },
+    {
+      "card": "513162...153",
+      "gate": "https://turningpointe.myshopify.com",
+      "status": "DECLINED",
+      "success": false,
+      "timestamp": "2026-01-02 18:58:13"
+    }
+  ],
+  "total_cards": 6,
+  "total_gates": 5,
+  "total_authorizations": 0,
+  "total_declined": 6,
+  "success_rate": 0.0,
+  "duration_seconds": 118.333512243
+}

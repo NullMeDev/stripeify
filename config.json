@@ -1,0 +1,24 @@
+{
+  "telegram": {
+    "bot_token": "7984658748:AAHklAGUu-ghwDMYZUdlu3m0m30gJgwjL4k",
+    "group_id": "-5286094140",
+    "bot_credit": "@MissNullMe"
+  },
+  "cards_file": "/home/null/Documents/extracted.txt",
+  "gates_directory": "/home/null/Desktop/ShopifyChunks/",
+  "gates_file": null,
+  "valid_gates_file": "valid_gates.json",
+  "proxies_file": "proxies.txt",
+  "auth_only": true,
+  "max_gates": 6,
+  "mode": "discovery",
+  "discovery": {
+    "cycle_through_all_gates": true,
+    "save_valid_gates_on_auth": true,
+    "prioritize_valid_gates": true,
+    "valid_gate_weight": 5,
+    "invalid_gate_weight": 1,
+    "cards_per_gate": 3,
+    "test_type": "authorization"
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "url": "https://missionstonetile.com",
+    "accessible": true,
+    "has_shopify": true,
+    "has_shopify_payments": true,
+    "has_donation_form": true,
+    "donation_keywords_count": 5,
+    "shopify_domain": null,
+    "payment_gateway": "Shopify (Unknown Gateway)",
+    "title": "We\u2019ll be back soon!\n \u2013 Mission Stone & Tile",
+    "error": null
+  },
+  {
+    "url": "https://nicuwarriorfoundation.org",
+    "accessible": true,
+    "has_shopify": true,
+    "has_shopify_payments": true,
+    "has_donation_form": true,
+    "donation_keywords_count": 9,
+    "shopify_domain": null,
+    "payment_gateway": "Shopify (Unknown Gateway)",
+    "title": "NICU Warrior Foundation\n\u2013 NICU WARRIOR FOUNDATION",
+    "error": null
+  },
+  {
+    "url": "https://www.submissionaudio.com",
+    "accessible": true,
+    "has_shopify": true,
+    "has_shopify_payments": true,
+    "has_donation_form": true,
+    "donation_keywords_count": 4,
+    "shopify_domain": null,
+    "payment_gateway": "Shopify Payments",
+    "title": "SubMission Audio | Music Production Plugins & Virtual Basses",
+    "error": null
+  },
+  {
+    "url": "https://mermaidstraw.com",
+    "accessible": true,
+    "has_shopify": true,
+    "has_shopify_payments": true,
+    "has_donation_form": true,
+    "donation_keywords_count": 4,
+    "shopify_domain": null,
+    "payment_gateway": "Shopify (Unknown Gateway)",
+    "title": "Mermaid Straw",
+    "error": null
+  }
+]

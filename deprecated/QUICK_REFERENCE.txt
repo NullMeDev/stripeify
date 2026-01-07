@@ -1,0 +1,162 @@
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                    SHOPIFY CHECKER - QUICK REFERENCE                      ║
+║                         Charged Mode ($1) - RECOMMENDED                   ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ SETUP (One-time)                                                        │
+└─────────────────────────────────────────────────────────────────────────┘
+
+1. Start ChromeDriver:
+   chromedriver --port=9515 &
+
+2. Create cards file (REAL CVV for charged mode):
+   cat > test_cards.txt << 'EOF'
+   4532015112830366|12|2027|123
+   5425233430109903|11|2026|456
+   EOF
+
+3. Verify proxies file exists:
+   ls -la proxies.txt
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ CHARGED MODE - Test with $1 charges (RECOMMENDED)                      │
+└─────────────────────────────────────────────────────────────────────────┘
+
+Test 10 gates from chunk_000:
+./target/release/shopify_checker rotate \
+  --gates ShopifyGatesAndChunks/chunk_000.txt \
+  --cards-file test_cards.txt \
+  --proxy-file proxies.txt \
+  --auth-only=false \
+  --max-gates 10
+
+Cost: $1 per valid gate found
+Reliability: ✅ HIGH (proven to work)
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ AUTH-ONLY MODE - Free but less reliable (NOT RECOMMENDED)              │
+└─────────────────────────────────────────────────────────────────────────┘
+
+Test 10 gates (no charges):
+./target/release/shopify_checker rotate \
+  --gates ShopifyGatesAndChunks/chunk_000.txt \
+  --cards-file test_cards.txt \
+  --proxy-file proxies.txt \
+  --max-gates 10
+
+Note: Omit --auth-only or use --auth-only=true (default)
+Cost: FREE
+Reliability: ⚠️ MEDIUM (CVV mismatch detection needed)
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ BATCH TESTING - Test multiple chunks                                   │
+└─────────────────────────────────────────────────────────────────────────┘
+
+Test chunks 0-9 with charged mode:
+for i in {0..9}; do
+  ./target/release/shopify_checker rotate \
+    --gates "ShopifyGatesAndChunks/chunk_00$i.txt" \
+    --cards-file test_cards.txt \
+    --proxy-file proxies.txt \
+    --auth-only=false \
+    --max-gates 20
+  sleep 10
+done
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ FILE FORMATS SUPPORTED                                                  │
+└─────────────────────────────────────────────────────────────────────────┘
+
+✅ JSON format (production_gates.json):
+   [{"url": "https://...", "gateway": "Shopify", ...}]
+
+✅ Plain text (chunk_*.txt):
+   https://turningpointe.myshopify.com
+   https://camberkits.myshopify.com
+   https://lemstyle.myshopify.com
+
+Auto-detected! No configuration needed.
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ COST ANALYSIS                                                           │
+└─────────────────────────────────────────────────────────────────────────┘
+
+Charged Mode ($1):
+  - Cost per valid gate: $1.00
+  - Cost per declined: $0.00
+  - 100 gates tested → ~25 valid → $25 total
+  - Reliability: ✅ HIGH
+
+Auth-Only Mode (FREE):
+  - Cost: $0.00
+  - Reliability: ⚠️ MEDIUM
+  - Requires CVV mismatch detection
+  - May not work on all gates
+
+RECOMMENDATION: Use charged mode for reliable results!
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ PROXY FEATURES                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+
+✅ Round-robin rotation
+✅ Automatic failure tracking
+✅ Bypasses 403 errors
+✅ Chrome extension authentication
+✅ 30 Porter Proxies ready
+
+Monitor: Watch for "Proxy stats: X available, Y failed"
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ TROUBLESHOOTING                                                         │
+└─────────────────────────────────────────────────────────────────────────┘
+
+"ChromeDriver not running":
+  chromedriver --port=9515 &
+
+"Card declined on all gates":
+  - Use REAL CVV (not 999) for charged mode
+  - Verify card validity
+
+"Proxies failing":
+  - Check proxies.txt credentials
+  - Add more proxies
+
+"JSON parsing error":
+  ✅ FIXED! Now supports both JSON and plain text
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ DOCUMENTATION                                                           │
+└─────────────────────────────────────────────────────────────────────────┘
+
+docs/CHARGED_MODE_GUIDE.md      - Charged mode usage (RECOMMENDED)
+docs/CHUNK_GATES_USAGE.md       - Chunk gates + proxy support
+docs/PROXY_USAGE_GUIDE.md       - Proxy configuration
+docs/AUTHORIZATION_ONLY_GUIDE.md - Auth-only mode (not recommended)
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ RECOMMENDED WORKFLOW                                                    │
+└─────────────────────────────────────────────────────────────────────────┘
+
+1. Start ChromeDriver
+2. Create cards file with REAL CVV
+3. Test 5-10 gates first (charged mode)
+4. Verify results
+5. Scale up to 20-50 gates per chunk
+6. Monitor costs and valid gates found
+7. Build database of working gates
+
+═══════════════════════════════════════════════════════════════════════════
+
+QUICK START COMMAND (CHARGED MODE):
+
+chromedriver --port=9515 & sleep 2 && \
+./target/release/shopify_checker rotate \
+  --gates ShopifyGatesAndChunks/chunk_000.txt \
+  --cards-file test_cards.txt \
+  --proxy-file proxies.txt \
+  --auth-only=false \
+  --max-gates 10
+
+═══════════════════════════════════════════════════════════════════════════

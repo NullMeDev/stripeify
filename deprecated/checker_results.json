@@ -1,0 +1,16 @@
+[
+  {
+    "gate": "https://mermaidstraw.com",
+    "card": "467785...336",
+    "amount": 35.0,
+    "status": "CHARGED",
+    "success": true
+  },
+  {
+    "gate": "https://webfoundation.myshopify.com",
+    "card": "455205...793",
+    "amount": 35.0,
+    "status": "CHARGED",
+    "success": true
+  }
+]

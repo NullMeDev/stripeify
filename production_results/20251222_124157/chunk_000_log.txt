@@ -1,0 +1,104 @@
+╔═══════════════════════════════════════════════════════════╗
+║     Shopify Checker - Unified Rust Implementation        ║
+║     Analyze gates & test cards with browser automation   ║
+╚═══════════════════════════════════════════════════════════╝
+
+🔄 ROTATIONAL GATE MODE: Smart Gate Rotation
+   ✨ Find working gate first
+   ✨ Use one gate for ALL cards
+   ✨ Rotate only when gate fails (3 consecutive failures)
+   ✨ Much more efficient than testing each card on all gates
+
+💳 CHARGE MODE ENABLED
+   ⚠️  Using real CVV - cards MAY be charged!
+   ⚠️  Use --auth-only to enable safe mode
+
+🔒 Proxy support enabled (file: proxies.txt)
+✓ Loading cards from: test_auth_cards.txt
+
+⚠️  Important: ChromeDriver must be running on port 9515
+   Start it with: chromedriver --port=9515 &
+
+Is ChromeDriver running? (y/n): 
+💳 CHARGE MODE
+   Using real CVV - cards may be charged!
+   Accepts: CHARGED, CVV_MISMATCH, INSUFFICIENT_FUNDS
+
+🔒 Loading proxies...
+✓ Loaded 30 proxies
+ℹ Proxy stats: 30 available, 0 failed
+→ Loading cards from file...
+✓ Loaded 3 valid cards from 3 lines (0 errors)
+🔒 Using proxy: evo-pro.porterproxies.com:62345
+
+🔍 Step 1: HTTP pre-screening gates (fast)...
+   Timeout: 3 seconds per gate
+→ [1/50] Checking: https://turningpointe.myshopify.com                    → [1/50] https://turningpointe.myshopify.com ✗ HTTP 403                    
+→ [2/50] Checking: https://camberkits.myshopify.com                    → [2/50] https://camberkits.myshopify.com ✗ HTTP 403                    
+→ [3/50] Checking: https://lemstyle.myshopify.com                    → [3/50] https://lemstyle.myshopify.com ✗ HTTP 403                    
+→ [4/50] Checking: https://greentempleproducts.myshopify.com                    → [4/50] https://greentempleproducts.myshopify.co ✗ HTTP 403                    
+→ [5/50] Checking: https://dejey.myshopify.com                    → [5/50] https://dejey.myshopify.com ✗ HTTP 403                    
+→ [6/50] Checking: https://stellabludesign.myshopify.com                    → [6/50] https://stellabludesign.myshopify.com ✗ HTTP 403                    
+→ [7/50] Checking: http://shop.freechristiandvds.com                    → [7/50] http://shop.freechristiandvds. ✗ Error: error sending reques                    
+→ [8/50] Checking: https://post27.myshopify.com                    → [8/50] https://post27.myshopify.com ✗ HTTP 403                    
+→ [9/50] Checking: https://elneroma.myshopify.com                    → [9/50] https://elneroma.myshopify.com ✗ HTTP 403                    
+→ [10/50] Checking: http://www.pspgamecentral.com                    → [10/50] http://www.pspgamecentral.com ✗ Error: error sending reques                    
+→ [11/50] Checking: https://artthang.myshopify.com                    → [11/50] https://artthang.myshopify.com ✗ HTTP 403                    
+→ [12/50] Checking: https://fdbf.myshopify.com                    → [12/50] https://fdbf.myshopify.com ✗ HTTP 403                    
+→ [13/50] Checking: https://qazwsx.myshopify.com                    → [13/50] https://qazwsx.myshopify.com ✗ HTTP 403                    
+→ [14/50] Checking: https://blmbao.myshopify.com                    → [14/50] https://blmbao.myshopify.com ✗ HTTP 403                    
+→ [15/50] Checking: https://regioninfo.myshopify.com                    → [15/50] https://regioninfo.myshopify.com ✗ HTTP 403                    
+→ [16/50] Checking: https://look.myshopify.com                    → [16/50] https://look.myshopify.com ✗ HTTP 403                    
+→ [17/50] Checking: https://theaterchurch.myshopify.com                    → [17/50] https://theaterchurch.myshopify.com ✗ HTTP 403                    
+→ [18/50] Checking: https://bhgdesign.myshopify.com                    → [18/50] https://bhgdesign.myshopify.com ✗ HTTP 403                    
+→ [19/50] Checking: https://puppylove.myshopify.com                    → [19/50] https://puppylove.myshopify.com ✗ HTTP 403                    
+→ [20/50] Checking: https://arty.myshopify.com                    → [20/50] https://arty.myshopify.com ✗ HTTP 403                    
+→ [21/50] Checking: https://fishnet.myshopify.com                    → [21/50] https://fishnet.myshopify.com ✗ HTTP 403                    
+→ [22/50] Checking: https://mayfieldaudio.myshopify.com                    → [22/50] https://mayfieldaudio.myshopify.com ✗ HTTP 403                    
+→ [23/50] Checking: https://dmelchio.myshopify.com                    → [23/50] https://dmelchio.myshopify.com ✗ HTTP 403                    
+→ [24/50] Checking: https://thisisgrey.myshopify.com                    → [24/50] https://thisisgrey.myshopify.com ✗ HTTP 403                    
+→ [25/50] Checking: https://wave.myshopify.com                    → [25/50] https://wave.myshopify.com ✗ HTTP 403                    
+→ [26/50] Checking: https://butterbean.myshopify.com                    → [26/50] https://butterbean.myshopify.com ✗ HTTP 403                    
+→ [27/50] Checking: https://itproduct.myshopify.com                    → [27/50] https://itproduct.myshopify.com ✗ HTTP 403                    
+→ [28/50] Checking: https://allnetmedia.myshopify.com                    → [28/50] https://allnetmedia.myshopify.com ✗ HTTP 403                    
+→ [29/50] Checking: https://thecomputershop.myshopify.com                    → [29/50] https://thecomputershop.myshopify.com ✗ HTTP 403                    
+→ [30/50] Checking: https://tabithastreasures.myshopify.com                    → [30/50] https://tabithastreasures.myshopify.com ✗ HTTP 403                    
+→ [31/50] Checking: https://westbayroasting.myshopify.com                    → [31/50] https://westbayroasting.myshopify.com ✗ HTTP 403                    
+→ [32/50] Checking: https://terradimezzopuntobiz.myshopify.com                    → [32/50] https://terradimezzopuntobiz.myshopify.c ✗ HTTP 403                    
+→ [33/50] Checking: https://armafutura.myshopify.com                    → [33/50] https://armafutura.myshopify.com ✗ HTTP 403                    
+→ [34/50] Checking: https://july.myshopify.com                    → [34/50] https://july.myshopify.com ✗ HTTP 403                    
+→ [35/50] Checking: https://testy.myshopify.com                    → [35/50] https://testy.myshopify.com ✗ HTTP 403                    
+→ [36/50] Checking: https://messagefirst.myshopify.com                    → [36/50] https://messagefirst.myshopify.com ✗ HTTP 403                    
+→ [37/50] Checking: https://toosmart.myshopify.com                    → [37/50] https://toosmart.myshopify.com ✗ HTTP 403                    
+→ [38/50] Checking: https://ninetyninetolife.myshopify.com                    → [38/50] https://ninetyninetolife.myshopify.com ✗ HTTP 403                    
+→ [39/50] Checking: https://fatmansky.myshopify.com                    → [39/50] https://fatmansky.myshopify.com ✗ HTTP 403                    
+→ [40/50] Checking: https://auction-sniper.myshopify.com                    → [40/50] https://auction-sniper.myshopify.com ✗ HTTP 403                    
+→ [41/50] Checking: https://ice-horse.myshopify.com                    → [41/50] https://ice-horse.myshopify.com ✗ HTTP 403                    
+→ [42/50] Checking: https://runescapemoney.myshopify.com                    → [42/50] https://runescapemoney.myshopify.com ✗ HTTP 403                    
+→ [43/50] Checking: https://diegocbapp.myshopify.com                    → [43/50] https://diegocbapp.myshopify.com ✗ HTTP 403                    
+→ [44/50] Checking: https://clearmountaincraft.myshopify.com                    → [44/50] https://clearmountaincraft.myshopify.com ✗ HTTP 403                    
+→ [45/50] Checking: https://testing1234.myshopify.com                    → [45/50] https://testing1234.myshopify.com ✗ HTTP 403                    
+→ [46/50] Checking: https://vipblast.myshopify.com                    → [46/50] https://vipblast.myshopify.com ✗ HTTP 403                    
+→ [47/50] Checking: https://hugo.myshopify.com                    → [47/50] https://hugo.myshopify.com ✗ HTTP 403                    
+→ [48/50] Checking: https://maxi.myshopify.com                    → [48/50] https://maxi.myshopify.com ✗ HTTP 403                    
+→ [49/50] Checking: https://jackaroo.myshopify.com                    → [49/50] https://jackaroo.myshopify.com ✗ HTTP 403                    
+→ [50/50] Checking: https://technologyaz.myshopify.com                    → [50/50] https://technologyaz.myshopify.com ✗ HTTP 403                    
+
+✓ Pre-screening complete in 11s
+✓ Found 0 accessible gates (filtered out 50 dead/slow gates)
+Error: No accessible gates found. All gates appear to be dead or inaccessible.
+
+Stack backtrace:
+   0: anyhow::error::<impl anyhow::Error>::msg
+   1: shopify_checker::checker_v3::run_checker_v3::{{closure}}
+   2: tokio::runtime::park::CachedParkThread::block_on
+   3: tokio::runtime::context::runtime::enter_runtime
+   4: tokio::runtime::runtime::Runtime::block_on
+   5: shopify_checker::main
+   6: std::sys::backtrace::__rust_begin_short_backtrace
+   7: std::rt::lang_start::{{closure}}
+   8: std::rt::lang_start_internal
+   9: main
+  10: <unknown>
+  11: __libc_start_main
+  12: _start

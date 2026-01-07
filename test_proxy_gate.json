@@ -1,0 +1,7 @@
+[
+  {
+    "url": "https://donate.example.com",
+    "gateway": "Shopify",
+    "donation_form": true
+  }
+]

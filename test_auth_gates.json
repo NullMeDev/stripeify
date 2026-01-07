@@ -1,0 +1,7 @@
+[
+  {
+    "url": "https://example-donation.myshopify.com",
+    "gateway": "Shopify Payments",
+    "donation_form": true
+  }
+]

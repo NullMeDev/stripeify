@@ -1,0 +1,65 @@
+╔═══════════════════════════════════════════════════════════╗
+║     Shopify Checker - Unified Rust Implementation        ║
+║     Analyze gates & test cards with browser automation   ║
+╚═══════════════════════════════════════════════════════════╝
+
+🔄 ROTATIONAL GATE MODE: Smart Gate Rotation
+   ✨ Find working gate first
+   ✨ Use one gate for ALL cards
+   ✨ Rotate only when gate fails (3 consecutive failures)
+   ✨ Much more efficient than testing each card on all gates
+
+🔐 AUTHORIZATION-ONLY MODE ENABLED
+   ✓ Using wrong CVV (999) to check cards
+   ✓ Cards will NOT be charged
+   ✓ Only CVV_MISMATCH responses count as valid
+
+🔒 Proxy support enabled (file: proxies.txt)
+✓ Loading cards from: full_test_cards.txt
+
+⚠️  Important: ChromeDriver must be running on port 9515
+   Start it with: chromedriver --port=9515 &
+
+Is ChromeDriver running? (y/n): 
+🔐 AUTHORIZATION-ONLY MODE
+   Using wrong CVV to check cards WITHOUT charging
+   Only CVV_MISMATCH responses will be counted as valid
+
+🔒 Loading proxies...
+✓ Loaded 30 proxies
+ℹ Proxy stats: 30 available, 0 failed
+→ Loading cards from file...
+✓ Loaded 707 valid cards from 707 lines (0 errors)
+🔒 Using proxy: evo-pro.porterproxies.com:62345
+
+🔍 Step 1: HTTP pre-screening gates (fast)...
+   Timeout: 3 seconds per gate
+→ [1/10] Checking: https://woodenfoundations.myshopify.com                    → [1/10] https://woodenfoundations.myshopify.com ✗ HTTP 403                    
+→ [2/10] Checking: https://support-r-troops.myshopify.com                    → [2/10] https://support-r-troops.myshopify.com ✗ HTTP 403                    
+→ [3/10] Checking: https://justrelief.myshopify.com                    → [3/10] https://justrelief.myshopify.com ✗ HTTP 403                    
+→ [4/10] Checking: https://heartsupport.myshopify.com                    → [4/10] https://heartsupport.myshopify.com ✗ HTTP 403                    
+→ [5/10] Checking: https://helpathome.myshopify.com                    → [5/10] https://helpathome.myshopify.com ✗ HTTP 403                    
+→ [6/10] Checking: https://israhelp.myshopify.com                    → [6/10] https://israhelp.myshopify.com ✗ HTTP 403                    
+→ [7/10] Checking: https://milwaukee-parks-foundation.myshopify.com                    → [7/10] https://milwaukee-parks-foundation.mysho ✗ HTTP 403                    
+→ [8/10] Checking: https://milwaukee-parks-foundation.myshoify.com                    → [8/10] https://milwaukee-parks-foundation.mysho ✗ Not Shopify                    
+→ [9/10] Checking: https://sheckler-foundation.myshopify.com                    → [9/10] https://sheckler-foundation.myshopify.co ✗ HTTP 403                    
+→ [10/10] Checking: https://eaid.myshopify.com                    → [10/10] https://eaid.myshopify.com ✗ HTTP 403                    
+
+✓ Pre-screening complete in 1s
+✓ Found 0 accessible gates (filtered out 10 dead/slow gates)
+Error: No accessible gates found. All gates appear to be dead or inaccessible.
+
+Stack backtrace:
+   0: anyhow::error::<impl anyhow::Error>::msg
+   1: shopify_checker::checker_v3::run_checker_v3::{{closure}}
+   2: tokio::runtime::park::CachedParkThread::block_on
+   3: tokio::runtime::context::runtime::enter_runtime
+   4: tokio::runtime::runtime::Runtime::block_on
+   5: shopify_checker::main
+   6: std::sys::backtrace::__rust_begin_short_backtrace
+   7: std::rt::lang_start::{{closure}}
+   8: std::rt::lang_start_internal
+   9: main
+  10: <unknown>
+  11: __libc_start_main
+  12: _start

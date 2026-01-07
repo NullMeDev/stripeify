@@ -1,0 +1,77 @@
+[
+  {
+    "url": "https://mermaidstraw.com",
+    "gateway": "Shopify",
+    "donation_form": true
+  },
+  {
+    "url": "https://webfoundation.myshopify.com",
+    "gateway": "Shopify",
+    "donation_form": true
+  },
+  {
+    "url": "https://cause.myshopify.com",
+    "gateway": "Shopify",
+    "donation_form": true
+  },
+  {
+    "url": "https://helpathome.myshopify.com",
+    "gateway": "Shopify",
+    "donation_form": true
+  },
+  {
+    "url": "https://justrelief.myshopify.com",
+    "gateway": "Shopify",
+    "donation_form": true
+  },
+  {
+    "url": "https://heartsupport.myshopify.com",
+    "gateway": "Shopify",
+    "donation_form": true
+  },
+  {
+    "url": "https://aidmatrix.myshopify.com",
+    "gateway": "Shopify",
+    "donation_form": true
+  },
+  {
+    "url": "https://thefoundation.myshopify.com",
+    "gateway": "Shopify",
+    "donation_form": true
+  },
+  {
+    "url": "https://woodenfoundations.myshopify.com",
+    "gateway": "Shopify",
+    "donation_form": true
+  },
+  {
+    "url": "https://support-r-troops.myshopify.com",
+    "gateway": "Shopify",
+    "donation_form": true
+  },
+  {
+    "url": "https://israhelp.myshopify.com",
+    "gateway": "Shopify",
+    "donation_form": true
+  },
+  {
+    "url": "https://milwaukee-parks-foundation.myshopify.com",
+    "gateway": "Shopify",
+    "donation_form": true
+  },
+  {
+    "url": "https://sheckler-foundation.myshopify.com",
+    "gateway": "Shopify",
+    "donation_form": true
+  },
+  {
+    "url": "https://eaid.myshopify.com",
+    "gateway": "Shopify",
+    "donation_form": true
+  },
+  {
+    "url": "https://charity.myshopify.com",
+    "gateway": "Shopify",
+    "donation_form": true
+  }
+]

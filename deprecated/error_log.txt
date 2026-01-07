@@ -1,0 +1,822 @@
+╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Mady Card Checker v1.0.0                                                                                       ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+Found saved configuration
+Use saved config? (y/n): Loaded saved configuration
+
+Testing Telegram connection...
+Telegram test failed: HTTP 400
+Continue anyway? (y/n): 
+Loaded 925 valid cards
+
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            5/925                                                                                   ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               5                                                                                       ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.25 cards/s                                                                            ║
+║   Elapsed              20.0s                                                                                   ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            10/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               10                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.22 cards/s                                                                            ║
+║   Elapsed              45.0s                                                                                   ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            15/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               15                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.21 cards/s                                                                            ║
+║   Elapsed              70.0s                                                                                   ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            20/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               20                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.21 cards/s                                                                            ║
+║   Elapsed              95.0s                                                                                   ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            25/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               25                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.21 cards/s                                                                            ║
+║   Elapsed              120.0s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            30/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               30                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.21 cards/s                                                                            ║
+║   Elapsed              145.0s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            35/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               35                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.21 cards/s                                                                            ║
+║   Elapsed              170.0s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            40/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               40                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.21 cards/s                                                                            ║
+║   Elapsed              195.0s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            45/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               45                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              220.1s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            50/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               50                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              245.1s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            55/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               55                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              270.1s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            60/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               60                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              295.1s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            65/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               65                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              320.1s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            70/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               70                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              345.1s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            75/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               75                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              370.1s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            80/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               80                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              395.1s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            85/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               85                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              420.1s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            90/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               90                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              445.1s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            95/925                                                                                  ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               95                                                                                      ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              470.1s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            100/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               100                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              495.1s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            105/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               105                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              520.1s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            110/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               110                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              545.1s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            115/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               115                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              570.1s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            120/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               120                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              595.1s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            125/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               125                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              620.1s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            130/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               130                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              645.2s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            135/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               135                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              670.2s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            140/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               140                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              695.2s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            145/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               145                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              720.2s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            150/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               150                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              745.2s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            155/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               155                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              770.2s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            160/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               160                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              795.2s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            165/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               165                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              820.2s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            170/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               170                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              845.2s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            175/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               175                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              870.2s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            180/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               180                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              895.2s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            185/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               185                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              920.2s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            190/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               190                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              945.2s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            195/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               195                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              970.2s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            200/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               200                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              995.2s                                                                                  ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            205/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               205                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              1020.2s                                                                                 ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            210/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               210                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              1045.2s                                                                                 ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            215/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               215                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              1070.2s                                                                                 ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            220/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               220                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              1095.3s                                                                                 ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            225/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               225                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              1120.3s                                                                                 ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            230/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               230                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              1145.3s                                                                                 ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            235/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               235                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              1170.3s                                                                                 ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            240/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               240                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              1195.3s                                                                                 ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            245/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               245                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              1220.3s                                                                                 ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            250/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               250                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              1245.3s                                                                                 ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            255/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               255                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              1270.3s                                                                                 ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            260/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               260                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              1295.3s                                                                                 ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            265/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               265                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              1320.3s                                                                                 ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════ Live Statistics ════════════════════════════════════════════════╗
+║                                                                                                                ║
+║   Total Cards          925                                                                                     ║
+║   Processed            270/925                                                                                 ║
+║   Approved (Full)      0                                                                                       ║
+║   CVV Mismatch         0                                                                                       ║
+║   Insufficient Funds   0                                                                                       ║
+║   Total Success        0                                                                                       ║
+║   Declined             0                                                                                       ║
+║   Errors               270                                                                                     ║
+║   Success Rate         0.0%                                                                                    ║
+║   Speed                0.20 cards/s                                                                            ║
+║   Elapsed              1345.3s                                                                                 ║
+║                                                                                                                ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝

@@ -1,0 +1,61 @@
+   Compiling shopify_checker v0.2.0 (/home/null/Desktop/Stripeify)
+warning: use of deprecated method `thirtyfour::session::handle::SessionHandle::switch_to`: SwitchTo has been deprecated. Use WebDriver::switch_to_*() methods instead
+  --> src/checker.rs:69:20
+   |
+69 |             driver.switch_to().frame_element(&iframe).await?;
+   |                    ^^^^^^^^^
+   |
+   = note: `#[warn(deprecated)]` on by default
+
+warning: use of deprecated method `thirtyfour::SwitchTo::frame_element`: This method has been moved to WebElement::enter_frame()
+  --> src/checker.rs:69:32
+   |
+69 |             driver.switch_to().frame_element(&iframe).await?;
+   |                                ^^^^^^^^^^^^^
+
+warning: use of deprecated method `thirtyfour::session::handle::SessionHandle::switch_to`: SwitchTo has been deprecated. Use WebDriver::switch_to_*() methods instead
+  --> src/checker.rs:92:24
+   |
+92 |                 driver.switch_to().default_content().await?;
+   |                        ^^^^^^^^^
+
+warning: use of deprecated method `thirtyfour::SwitchTo::default_content`: This method has been moved to WebDriver::enter_default_frame()
+  --> src/checker.rs:92:36
+   |
+92 |                 driver.switch_to().default_content().await?;
+   |                                    ^^^^^^^^^^^^^^^
+
+warning: value assigned to `amount_filled` is never read
+  --> src/checker.rs:53:25
+   |
+53 |                         amount_filled = true;
+   |                         ^^^^^^^^^^^^^
+   |
+   = help: maybe it is overwritten before being read?
+   = note: `#[warn(unused_assignments)]` on by default
+
+warning: unused variable: `gate`
+  --> src/telegram.rs:11:5
+   |
+11 |     gate: &str,
+   |     ^^^^ help: if this is intentional, prefix it with an underscore: `_gate`
+   |
+   = note: `#[warn(unused_variables)]` on by default
+
+warning: `shopify_checker` (lib) generated 6 warnings
+warning: unused variable: `concurrent`
+   --> src/main.rs:157:79
+    |
+157 | fn run_analyzer(input_dir: &str, output_file: &str, max_check: Option<usize>, concurrent: bool, workers: usize) -> Result<()> {
+    |                                                                               ^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_concurrent`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `workers`
+   --> src/main.rs:157:97
+    |
+157 | fn run_analyzer(input_dir: &str, output_file: &str, max_check: Option<usize>, concurrent: bool, workers: usize) -> Result<()> {
+    |                                                                                                 ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_workers`
+
+warning: `shopify_checker` (bin "shopify_checker") generated 2 warnings
+    Finished `release` profile [optimized] target(s) in 9.45s

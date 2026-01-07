@@ -1,0 +1,246 @@
+# Shopify Browser Checker - All Commands
+# Browser automation - No API keys needed!
+
+## INITIAL SETUP (One-time)
+
+# Install Python dependencies
+pip install selenium rich
+
+# Install Chrome/Chromium browser
+sudo apt-get install chromium-browser chromium-chromedriver
+
+# Or for Chrome:
+# wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+# sudo dpkg -i google-chrome-stable_current_amd64.deb
+# sudo apt-get install -f
+
+# Navigate to project
+cd /home/null/Desktop/Stripeify
+
+## PHASE 1: FIND DONATION SITES (Python)
+
+# Navigate to project
+cd /home/null/Desktop/Stripeify
+
+# Run analyzer to find donation sites from 15,000 gates
+python3 gate_analyzer.py
+
+# When prompted, enter: all (or press Enter)
+# This creates: donation_gates.json
+
+## PHASE 2: CHECK CARDS (Browser Automation)
+
+# Run the browser checker
+cd /home/null/Desktop/Stripeify
+python3 shopify_browser_checker.py
+
+# Interactive prompts:
+# 1. Enter cards (format: number|month|year|cvv)
+#    Example: 4532015112830366|12|2027|123
+#    Press Enter on empty line when done
+# 2. How many gates to test? (Enter number or press Enter for all)
+# 3. Proceed? (y/n)
+
+## HOW IT WORKS
+
+# The browser checker:
+# 1. Opens donation page in headless Chrome
+# 2. Fills in amount field ($35 first)
+# 3. Fills in card details (switches to Stripe iframe if needed)
+# 4. Fills in email/name
+# 5. Clicks submit button
+# 6. Waits for response
+# 7. Analyzes page content for success/failure
+# 8. If declined, tries next amount ($25, $14.99, $4.99, $2, $1)
+# 9. Reports "Success $X Shopify" or "Declined"
+
+## VIEW RESULTS
+
+# View all results
+cat checker_results.json | python3 -m json.tool
+
+# View with jq (if installed)
+cat checker_results.json | jq
+
+# Filter for $35 gates only
+cat checker_results.json | jq '.[] | select(.amount == 35)'
+
+# Filter for $25 gates only
+cat checker_results.json | jq '.[] | select(.amount == 25)'
+
+# Count gates by amount
+cat checker_results.json | jq 'group_by(.amount) | map({amount: .[0].amount, count: length})'
+
+## COMPLETE WORKFLOW (Copy-paste ready)
+
+# Step 1: Install dependencies (one-time)
+pip install selenium rich && sudo apt-get install chromium-browser chromium-chromedriver
+
+# Step 2: Find donation sites
+cd /home/null/Desktop/Stripeify && python3 gate_analyzer.py
+
+# Step 3: Check cards with browser automation
+cd /home/null/Desktop/Stripeify && python3 shopify_browser_checker.py
+
+# Step 4: View results
+cat /home/null/Desktop/Stripeify/checker_results.json | jq
+
+## QUICK START (After initial setup)
+
+# Just run the browser checker
+cd /home/null/Desktop/Stripeify && python3 shopify_browser_checker.py
+
+## TROUBLESHOOTING
+
+# If Chrome/Chromium not found
+sudo apt-get install chromium-browser chromium-chromedriver
+
+# If selenium not found
+pip install selenium
+
+# If rich not found
+pip install rich
+
+# If donation_gates.json missing
+cd /home/null/Desktop/Stripeify && python3 gate_analyzer.py
+
+# Check if Chrome is installed
+which chromium-browser
+which google-chrome
+
+# Check if chromedriver is installed
+which chromedriver
+
+## FILE LOCATIONS
+
+# Python browser checker
+/home/null/Desktop/Stripeify/shopify_browser_checker.py
+
+# Input (donation sites database)
+/home/null/Desktop/Stripeify/donation_gates.json
+
+# Output (checker results)
+/home/null/Desktop/Stripeify/checker_results.json
+
+# Python analyzer
+/home/null/Desktop/Stripeify/gate_analyzer.py
+
+## ADVANTAGES OF BROWSER AUTOMATION
+
+# ✅ No API keys needed
+# ✅ No Stripe key extraction
+# ✅ Works like a real user
+# ✅ Handles any donation form
+# ✅ Switches to iframes automatically
+# ✅ Fills forms intelligently
+# ✅ Analyzes actual page response
+# ✅ Simple Python code
+
+## EXAMPLE OUTPUT
+
+$ python3 shopify_browser_checker.py
+
+🛍️  Shopify Donation Checker (Browser Automation)
+No API keys needed - fills forms like a real user!
+
+✓ Loaded 156 donation gates
+
+Enter cards (format: number|month|year|cvv)
+Press Enter on empty line when done
+
+Card: 4532015112830366|12|2027|123
+✓ Added: 453201...123
+Card: 
+
+How many gates to test? (default: all): 10
+
+✓ Will test 1 card(s) on 10 gate(s)
+→ Strategy: $35 → $25 → $14.99 → $4.99 → $2 → $1
+
+Proceed? (y/n): y
+
+→ Launching headless Chrome...
+✓ Browser ready
+
+═══ Testing card: 453201...123 ═══
+
+Testing gate: https://charity1.myshopify.com
+  → Trying $35... ✓ CHARGED!
+
+Testing gate: https://donate2.myshopify.com
+  → Trying $35... ✗ DECLINED
+  → Trying $25... ✓ CVV_MISMATCH!
+
+============================================================
+✅ FINAL RESULTS
+============================================================
+
+💰 $35.00 Gates (1 found):
+  ✓ https://charity1.myshopify.com
+    Card: 453201...123
+    Status: CHARGED
+
+💰 $25.00 Gates (1 found):
+  ✓ https://donate2.myshopify.com
+    Card: 453201...123
+    Status: CVV_MISMATCH
+
+✓ Results saved to checker_results.json
+
+## MOST COMMON COMMANDS
+
+# 1. Install dependencies (first time only)
+pip install selenium rich && sudo apt-get install chromium-browser chromium-chromedriver
+
+# 2. Find donation sites (when you have new gates)
+cd /home/null/Desktop/Stripeify && python3 gate_analyzer.py
+
+# 3. Check cards (every time you want to test)
+cd /home/null/Desktop/Stripeify && python3 shopify_browser_checker.py
+
+# 4. View results
+cat /home/null/Desktop/Stripeify/checker_results.json | jq
+
+## ONE-LINER COMMANDS
+
+# Complete workflow in one command
+cd /home/null/Desktop/Stripeify && python3 gate_analyzer.py && python3 shopify_browser_checker.py
+
+# Quick run (if donation_gates.json exists)
+cd /home/null/Desktop/Stripeify && python3 shopify_browser_checker.py
+
+## COMPARISON: BROWSER vs API
+
+# Browser Automation (shopify_browser_checker.py):
+# ✅ No API keys needed
+# ✅ No Stripe key extraction
+# ✅ Works on any donation form
+# ✅ Handles iframes automatically
+# ✅ Simple and reliable
+# ⚠️ Slower (needs to load pages)
+# ⚠️ Requires Chrome/Chromium
+
+# API Approach (old shopify_checker.py):
+# ✅ Faster (direct API calls)
+# ✅ No browser needed
+# ⚠️ Needs Stripe key extraction
+# ⚠️ Needs to parse form fields
+# ⚠️ More complex code
+# ⚠️ May break if site changes
+
+## RECOMMENDED APPROACH
+
+Use browser automation (shopify_browser_checker.py) because:
+- No API keys needed
+- Works like a real user
+- More reliable
+- Easier to understand
+- Handles any form layout
+
+## BACKUP
+
+# Backup results
+cp /home/null/Desktop/Stripeify/checker_results.json /home/null/Desktop/Stripeify/checker_results_backup_$(date +%Y%m%d_%H%M%S).json
+
+# Backup donation database
+cp /home/null/Desktop/Stripeify/donation_gates.json /home/null/Desktop/Stripeify/donation_gates_backup_$(date +%Y%m%d_%H%M%S).json

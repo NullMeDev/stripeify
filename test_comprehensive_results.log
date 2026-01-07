@@ -1,0 +1,47 @@
+════════════════════════════════════════════════════════════
+  COMPREHENSIVE DISCOVERY MODE TEST SUITE
+════════════════════════════════════════════════════════════
+
+════════════════════════════════════════════════════════════
+  PHASE 1: PREREQUISITE CHECKS
+════════════════════════════════════════════════════════════
+
+[0;36m[TEST 1][0m Binary exists and is executable
+[0;32m✓ PASSED[0m: Binary found at ./target/release/shopify_checker
+
+[0;36m[TEST 2][0m ChromeDriver is running
+[0;32m✓ PASSED[0m: ChromeDriver is running (PID: 292841)
+
+[0;36m[TEST 3][0m Test files exist
+[0;32m✓ PASSED[0m: Test cards and gates directory found
+
+════════════════════════════════════════════════════════════
+  PHASE 2: CLI INTERFACE TESTS
+════════════════════════════════════════════════════════════
+
+[0;36m[TEST 4][0m Help command works
+[0;32m✓ PASSED[0m: Help command executed successfully
+
+[0;36m[TEST 5][0m Version command works
+[0;32m✓ PASSED[0m: Version command executed successfully
+
+════════════════════════════════════════════════════════════
+  PHASE 3: EDGE CASE TESTS
+════════════════════════════════════════════════════════════
+
+[0;36m[TEST 6][0m Error handling for missing arguments
+[0;32m✓ PASSED[0m: Properly validates required arguments
+
+[0;36m[TEST 7][0m Error handling for invalid gates directory
+[0;31m✗ FAILED[0m: Should error on invalid directory
+
+[0;36m[TEST 8][0m Error handling for invalid cards file
+[0;31m✗ FAILED[0m: Should error on invalid cards file
+
+════════════════════════════════════════════════════════════
+  PHASE 4: FUNCTIONAL TESTS (MINIMAL)
+════════════════════════════════════════════════════════════
+
+[0;36m[TEST 9][0m Basic discover execution (2 gates, 60s timeout)
+[1;33mThis may take up to 60 seconds...[0m
+[1;33mCleaning up test files...[0m

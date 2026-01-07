@@ -1,0 +1,60 @@
+╔═══════════════════════════════════════════════════════════╗
+║     Shopify Checker - Unified Rust Implementation        ║
+║     Analyze gates & test cards with browser automation   ║
+╚═══════════════════════════════════════════════════════════╝
+
+🧠 SMART CARD MODE: Intelligent Card Rotation
+   ✨ Try multiple cards per gate until one works
+   ✨ Once card works, use it for ALL remaining gates
+   ✨ When card dies, find next working card
+   ✨ Maximizes gate discovery with minimal card usage
+
+🔐 AUTHORIZATION-ONLY MODE
+   ✓ Using wrong CVV (999) - no charges
+
+✓ Loading cards from: full_test_cards.txt
+✓ Loading gates from: test_5_gates_smart.txt
+
+⚠️  Important: ChromeDriver must be running on port 9515
+   Start it with: chromedriver --port=9515 &
+
+Is ChromeDriver running? (y/n): 
+═══════════════════════════════════════════════════════════
+🧠 SMART CARD ROTATION STRATEGY
+═══════════════════════════════════════════════════════════
+
+Strategy:
+  1. For each gate, try cards until one works
+  2. Once card works, use it for all remaining gates
+  3. When card dies, find next working card
+  4. Continue until all gates tested
+
+🔐 MODE: Authorization-Only (FREE)
+   Using wrong CVV - no charges
+
+📂 Loading gates...
+✓ Loaded 5 gates
+💳 Loading cards...
+→ Loading cards from file...
+✓ Loaded 707 valid cards from 707 lines (0 errors)
+✓ Loaded 707 cards
+
+🌐 Starting browser...
+✓ Browser ready
+
+═══════════════════════════════════════════════════════════
+🚀 STARTING SMART GATE TESTING
+═══════════════════════════════════════════════════════════
+
+━━━ Gate 1/5 ━━━
+URL: https://webfoundation.myshopify.com
+→ Finding working card for this gate...
+  → Testing card #1/707...
+  ✗ Card #1 failed
+  → Testing card #2/707...
+  ✗ Card #2 failed
+  → Testing card #3/707...
+  ✗ Card #3 failed
+  → Testing card #4/707...
+  ✗ Card #4 failed
+  → Testing card #5/707...
